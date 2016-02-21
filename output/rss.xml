@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NKTest</title><link>https://example.com/</link><description>Testing Nikola</description><atom:link type="application/rss+xml" rel="self" href="https://example.com/rss.xml"></atom:link><language>en</language><lastBuildDate>Sun, 21 Feb 2016 22:15:59 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>firstpost</title><link>https://example.com/posts/firstpost/</link><dc:creator>Conor</dc:creator><description>&lt;p&gt;Write your post here.&lt;/p&gt;</description><guid>https://example.com/posts/firstpost/</guid><pubDate>Sun, 21 Feb 2016 21:24:59 GMT</pubDate></item><item><title>HTML article</title><link>https://example.com/posts/html-article/</link><dc:creator>Conor</dc:creator><description>&lt;article&gt;
+&lt;h1&gt;Testing HTML&lt;/h1&gt;
+
+&lt;p&gt;One of the nice things about &lt;a href="https://getnikola.com/"&gt;Nikola&lt;/a&gt; is that you have several different markup options for writing your articles.  This article is written using &lt;a href="http://www.w3schools.com/html/html_intro.asp"&gt;HTML&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It's possible to write code:&lt;/p&gt;
+
+&lt;pre&gt;
+	# Logistic growth model #
+	logist=function(K,r,g,t) (K*g*exp(r*t))/(K+g*(exp(r*t)-1))
+
+	# Generalised logistic growth model #
+	# Solution of dx/dt = r*x*(1-(x/K)^v)
+	Glogist=function(K,r,g,v,t) K/(1+(-1+(K/g)^v)*exp(-r*v*t))^(1/v)
+&lt;/pre&gt;
+
+&lt;p&gt;
+And it should be possible to write maths with &lt;a href="https://www.mathjax.org/"&gt;MathJax&lt;/a&gt;: 
+$$\(e^{ix} = \cos x + i\sin x\)$$
+&lt;/p&gt;
+&lt;/article&gt;
+</description><guid>https://example.com/posts/html-article/</guid><pubDate>Sun, 14 Feb 2016 13:48:35 GMT</pubDate></item></channel></rss>

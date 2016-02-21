@@ -1,0 +1,39 @@
+<!--
+.. title: HTML article
+.. slug: html-article
+.. date: 2016-02-14 13:48:35 UTC
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+-->
+
+<!doctype html>
+<html lang=en> 
+<head>
+</head>
+<body>
+<article>
+<h1>Testing HTML</h1>
+
+<p>One of the nice things about <a href="https://getnikola.com/">Nikola</a> is that you have several different markup options for writing your articles.  This article is written using <a href="http://www.w3schools.com/html/html_intro.asp">HTML</a>.</p>
+
+<p>It's possible to write code:</p>
+
+<pre>
+	# Logistic growth model #
+	logist=function(K,r,g,t) (K*g*exp(r*t))/(K+g*(exp(r*t)-1))
+
+	# Generalised logistic growth model #
+	# Solution of dx/dt = r*x*(1-(x/K)^v)
+	Glogist=function(K,r,g,v,t) K/(1+(-1+(K/g)^v)*exp(-r*v*t))^(1/v)
+</pre>
+
+<p>
+And it should be possible to write maths with <a href="https://www.mathjax.org/">MathJax</a>: 
+$$\(e^{ix} = \cos x + i\sin x\)$$
+</p>
+</article>
+</body>
+</html>
